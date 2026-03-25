@@ -31,7 +31,7 @@ public class AppManager
         neymar.setTopspielerVorname("Neymar");
         neymar.setTopspielerNachname("Junior");
         neymar.setTopspielerAlter(32);
-        neymar.setTopspielerPosition("Flügel");
+        neymar.setTopspielerPosition("Flï¿½gel");
 
         Topspieler wirtz = new Topspieler();
         wirtz.setTopspielerVorname("Florian");
@@ -109,7 +109,7 @@ public class AppManager
         yamal.setTopspielerVorname("Lamine");
         yamal.setTopspielerNachname("Yamal");
         yamal.setTopspielerAlter(18);
-        yamal.setTopspielerPosition("Rechtsaußen");
+        yamal.setTopspielerPosition("Rechtsauï¿½en");
 
         Topspieler torres = new Topspieler();
         torres.setTopspielerVorname("Ferran");
@@ -127,17 +127,17 @@ public class AppManager
         fati.setTopspielerVorname("Ansu");
         fati.setTopspielerNachname("Fati");
         fati.setTopspielerAlter(22);
-        fati.setTopspielerPosition("Sturm / Flügel");
+        fati.setTopspielerPosition("Sturm / Flï¿½gel");
 
         Topspieler raphinha = new Topspieler();
         raphinha.setTopspielerVorname("Raphinha");
         raphinha.setTopspielerNachname("Raphinha");
         raphinha.setTopspielerAlter(28);
-        raphinha.setTopspielerPosition("Flügel");
+        raphinha.setTopspielerPosition("Flï¿½gel");
 
         Topspieler zaireEmery = new Topspieler();
         zaireEmery.setTopspielerVorname("Warren");
-        zaireEmery.setTopspielerNachname("Zaïre-Emery");
+        zaireEmery.setTopspielerNachname("Zaï¿½re-Emery");
         zaireEmery.setTopspielerAlter(19);
         zaireEmery.setTopspielerPosition("Mittelfeld");
 
@@ -151,22 +151,22 @@ public class AppManager
         barcola.setTopspielerVorname("Bradley");
         barcola.setTopspielerNachname("Barcola");
         barcola.setTopspielerAlter(23);
-        barcola.setTopspielerPosition("Angriff / Flügel");
+        barcola.setTopspielerPosition("Angriff / Flï¿½gel");
 
         Topspieler kvaratskhelia = new Topspieler();
         kvaratskhelia.setTopspielerVorname("Khvicha");
         kvaratskhelia.setTopspielerNachname("Kvaratskhelia");
         kvaratskhelia.setTopspielerAlter(23);
-        kvaratskhelia.setTopspielerPosition("Angriff / Flügel");
+        kvaratskhelia.setTopspielerPosition("Angriff / Flï¿½gel");
 
         Topspieler ramos = new Topspieler();
-        ramos.setTopspielerVorname("Gonçalo");
+        ramos.setTopspielerVorname("Gonï¿½alo");
         ramos.setTopspielerNachname("Ramos");
         ramos.setTopspielerAlter(24);
         ramos.setTopspielerPosition("Sturm");
         
         Topspieler doue = new Topspieler();
-        doue.setTopspielerVorname("Désiré");
+        doue.setTopspielerVorname("Dï¿½sirï¿½");
         doue.setTopspielerNachname("Doue");
         doue.setTopspielerAlter(20);
         doue.setTopspielerPosition("Angriff / Mittelfeld");
@@ -175,11 +175,11 @@ public class AppManager
         cherki.setTopspielerVorname("Rayan");
         cherki.setTopspielerNachname("Cherki");
         cherki.setTopspielerAlter(20);
-        cherki.setTopspielerPosition("Offensives Mittelfeld / Flügel");
+        cherki.setTopspielerPosition("Offensives Mittelfeld / Flï¿½gel");
 
         Topspieler gavi = new Topspieler();
         gavi.setTopspielerVorname("Gavi");
-        gavi.setTopspielerNachname("Piqué");
+        gavi.setTopspielerNachname("Piquï¿½");
         gavi.setTopspielerAlter(19);
         gavi.setTopspielerPosition("Mittelfeld / Offensiv");
 
@@ -187,7 +187,7 @@ public class AppManager
         jonathanDavid.setTopspielerVorname("Jonathan");
         jonathanDavid.setTopspielerNachname("David");
         jonathanDavid.setTopspielerAlter(23);
-        jonathanDavid.setTopspielerPosition("Sturm / Flügel");
+        jonathanDavid.setTopspielerPosition("Sturm / Flï¿½gel");
 
         Topspieler antonio = new Topspieler();
         antonio.setTopspielerVorname("Antonio");
@@ -199,10 +199,10 @@ public class AppManager
         olmo.setTopspielerVorname("Dani");
         olmo.setTopspielerNachname("Olmo");
         olmo.setTopspielerAlter(24);
-        olmo.setTopspielerPosition("Mittelfeld / Flügel");
+        olmo.setTopspielerPosition("Mittelfeld / Flï¿½gel");
 
         Topspieler bakayoko = new Topspieler();
-        bakayoko.setTopspielerVorname("Tiemoué");
+        bakayoko.setTopspielerVorname("Tiemouï¿½");
         bakayoko.setTopspielerNachname("Bakayoko");
         bakayoko.setTopspielerAlter(28);
         bakayoko.setTopspielerPosition("Mittelfeld / Defensiv");
@@ -217,25 +217,25 @@ public class AppManager
         reus.setTopspielerVorname("Marco");
         reus.setTopspielerNachname("Reus");
         reus.setTopspielerAlter(34);
-        reus.setTopspielerPosition("Offensives Mittelfeld / Flügel");
+        reus.setTopspielerPosition("Offensives Mittelfeld / Flï¿½gel");
 
         Topspieler insigne = new Topspieler();
         insigne.setTopspielerVorname("Lorenzo");
         insigne.setTopspielerNachname("Insigne");
         insigne.setTopspielerAlter(32);
-        insigne.setTopspielerPosition("Flügel / Sturm");
+        insigne.setTopspielerPosition("Flï¿½gel / Sturm");
 
         Topspieler demir = new Topspieler();
         demir.setTopspielerVorname("Yusuf");
         demir.setTopspielerNachname("Demir");
         demir.setTopspielerAlter(21);
-        demir.setTopspielerPosition("Flügel / Offensiv");
+        demir.setTopspielerPosition("Flï¿½gel / Offensiv");
 
         Topspieler gomez = new Topspieler();
         gomez.setTopspielerVorname("Alejandro");
-        gomez.setTopspielerNachname("Gómez");
+        gomez.setTopspielerNachname("Gï¿½mez");
         gomez.setTopspielerAlter(35);
-        gomez.setTopspielerPosition("Offensives Mittelfeld / Flügel");
+        gomez.setTopspielerPosition("Offensives Mittelfeld / Flï¿½gel");
 
         Topspieler bellingham = new Topspieler();
         bellingham.setTopspielerVorname("Jude");
@@ -247,10 +247,10 @@ public class AppManager
         sancho.setTopspielerVorname("Jadon");
         sancho.setTopspielerNachname("Sancho");
         sancho.setTopspielerAlter(24);
-        sancho.setTopspielerPosition("Flügel / Angriff");
+        sancho.setTopspielerPosition("Flï¿½gel / Angriff");
 
         Topspieler dest = new Topspieler();
-        dest.setTopspielerVorname("Sergiño");
+        dest.setTopspielerVorname("Sergiï¿½o");
         dest.setTopspielerNachname("Dest");
         dest.setTopspielerAlter(22);
         dest.setTopspielerPosition("Verteidigung / Rechtsverteidiger");
@@ -262,10 +262,10 @@ public class AppManager
         arnold.setTopspielerPosition("Verteidigung / Rechtsverteidiger");
 
         Topspieler cancelo = new Topspieler();
-        cancelo.setTopspielerVorname("João");
+        cancelo.setTopspielerVorname("Joï¿½o");
         cancelo.setTopspielerNachname("Cancelo");
         cancelo.setTopspielerAlter(28);
-        cancelo.setTopspielerPosition("Verteidigung / Außenverteidiger");
+        cancelo.setTopspielerPosition("Verteidigung / Auï¿½enverteidiger");
 
         Topspieler alaba = new Topspieler();
         alaba.setTopspielerVorname("David");
@@ -275,11 +275,11 @@ public class AppManager
 
         Topspieler kante2 = new Topspieler();
         kante2.setTopspielerVorname("N'Golo");
-        kante2.setTopspielerNachname("Kanté");
+        kante2.setTopspielerNachname("Kantï¿½");
         kante2.setTopspielerAlter(32);
         kante2.setTopspielerPosition("Defensives Mittelfeld");
 
-        // Spieler zur Liste hinzufügen
+        // Spieler zur Liste hinzufï¿½gen
         spielerListe.add(cherki);
         spielerListe.add(gavi);
         spielerListe.add(jonathanDavid);
@@ -338,7 +338,7 @@ public class AppManager
     {
         String eingabe = view.getNachname().trim();
 
-        // Eingabeprüfung
+        // Eingabeprï¿½fung
         if (eingabe.isEmpty())
         {
             view.zeigeFehlermeldung("Bitte einen Nachnamen eingeben!");

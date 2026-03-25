@@ -45,7 +45,12 @@ public class Topspieler
 	}
 	public void setTopspielerAlter(int topspielerAlter)
 	{
-		TopspielerAlter = topspielerAlter;
+		if (topspielerAlter >= 0) {
+			TopspielerAlter = topspielerAlter;
+		} else {
+			System.out.println("Fehler: Alter muss positiv sein. Setze auf 0.");
+			TopspielerAlter = 0;
+		}
 	}
 	
 	
