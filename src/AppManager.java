@@ -31,7 +31,7 @@ public class AppManager
         neymar.setTopspielerVorname("Neymar");
         neymar.setTopspielerNachname("Junior");
         neymar.setTopspielerAlter(32);
-        neymar.setTopspielerPosition("Fl�gel");
+        neymar.setTopspielerPosition("Angriff");
 
         Topspieler wirtz = new Topspieler();
         wirtz.setTopspielerVorname("Florian");
