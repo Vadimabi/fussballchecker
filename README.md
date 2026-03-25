@@ -1,40 +1,42 @@
-# Fußball-Checker
+# Schulische Projektvorlage
 
-Ein einfaches Java-Programm zur Verwaltung von Fußball-Daten wie Trainern, Spielern, Clubs und Erfolgen. Dieses Projekt demonstriert grundlegende objektorientierte Programmierung (OOP) und Datenmodellierung.
+Dieses Repository dient als didaktische Projekt-Template-Repo für schulische Softwareprojekte. Es bietet eine stabile Dokumentationsstruktur und einen austauschbaren Quellcode-Bereich für verschiedene Schülerprojekte.
 
-## Funktionen
+## Zweck des Templates
 
-- Erstellung und Anzeige von Trainer-, Spieler-, Club- und Erfolgs-Objekten.
-- Konsolenbasierte Ausgabe der Daten.
-- Einfache Validierung von Eingaben (z.B. Alter muss positiv sein).
+- Bereitstellung einer standardisierten Struktur für Schulprojekte.
+- Vollständige Handbuch-Dokumentation für Projektmanagement und Prozesse.
+- Austauschbarer `src/`-Bereich mit Beispielprojekten (z.B. Fußball-Checker und neutrales Beispielprojekt).
+- Unterstützung für Live-Tests mit Datenbank und Webanwendung.
 
-## Installation und Ausführung
+## Ein neues Schülerprojekt starten
 
-1. Stelle sicher, dass Java (JDK 11+) installiert ist.
-2. Klone das Repository: `git clone https://github.com/Vadimabi/fussballchecker.git`
-3. Navigiere in das Verzeichnis: `cd fussballchecker`
-4. Kompiliere: `javac src/*.java`
-5. Führe aus: `java -cp src Klassen.main`
+1. Klone dieses Repository: `git clone https://github.com/Vadimabi/fussballchecker.git`
+2. Entferne oder ersetze den Inhalt von `src/` mit deinem Projekt.
+   - Verwende `src/<projektname>/` für dein Projekt (z.B. `src/meinprojekt/`).
+   - Halte MVC-Trennung ein: `model/`, `view/`, `controller/`.
+3. Passe die Dokumentation in `docs/handbuch/` an dein Projekt an.
+4. Für Tests: Folge der [Schnellstart-Anleitung](docs/handbuch/prozesse/schnellstart-und-test.md).
 
-## Projektstruktur
+## Verwendung der Handbuch-Doku
 
-- `src/`: Java-Quellcode
-  - `main.java`: Haupteinstiegspunkt
-  - `Trainer.java`, `Topspieler.java`, etc.: Datenklassen
-- `docs/Handbuch/`: Dokumentation
-  - `Pflichtenheft.md`: Projektanforderungen
-  - `ARCHITEKTUR.md`: Systemdesign
+Die Dokumentation in `docs/handbuch/` enthält:
+- [README.md](docs/handbuch/README.md): Quick-Start und Übersicht.
+- [INDEX.md](docs/handbuch/INDEX.md): Vollständiges Inhaltsverzeichnis.
+- Prozesse, Templates und Marschpläne für Projektmanagement.
 
-## Architektur
+## Kurzanleitung für Branch/PR/Review
 
-Das System folgt einem einfachen Modell-View-Controller (MVC) Ansatz:
-- **Model**: Klassen wie Trainer, Topspieler (Datenhaltung).
-- **View**: Konsolen-Ausgabe.
-- **Controller**: Logik in main.java.
+1. Erstelle einen Feature-Branch: `git checkout -b feature/meine-funktion`
+2. Commite deine Änderungen: `git commit -m "Beschreibung"`
+3. Pushe den Branch: `git push origin feature/meine-funktion`
+4. Öffne einen Pull Request auf GitHub.
+5. Warte auf Review und merge nach Genehmigung.
 
-## Beitrag
+## Beispielprojekte
 
-Für Verbesserungen: Forke das Repo, erstelle einen Branch und öffne einen Pull Request.
+- `src/fussballchecker/`: Einfache Java-Konsolen-App für Fußball-Daten.
+- `src/beispielprojekt/`: Neutrales Beispiel mit MVC und Datenbank/Web-Unterstützung.
 
 ## Lizenz
 
